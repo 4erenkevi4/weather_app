@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="today">Today</string>
+    <string name="forecast">Forecast</string>
+    <string name="location">Your location</string>
+    <string name="share">Share</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/navigations_app"
+        app:startDestination="@id/today_weather">
+
+    <fragment
+            android:id="@+id/today_weather"
+            android:name="com.example.weatherapp.ui.view.MainFragment"
+            android:label="fragment_trend_gifs"
+            tools:layout="@layout/today_fragment" />
+
+    <fragment
+            android:id="@+id/forecast_weather"
+            android:name="com.example.weatherapp.ui.view.ForecastFragment"
+            android:label="fragment_search_gifs"
+            tools:layout="@layout/forecast_fragment" />
+
+
+</navigation>
